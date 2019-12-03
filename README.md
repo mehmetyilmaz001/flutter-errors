@@ -4,6 +4,6 @@
   - Solution: Put TextFormField into a Expanded or Contaniner (width with)
   
 - Got TLS error trying to find package on Windows
-  - run command on console set NODE_TLS_REJECT_UNAUTHORIZED=0
+  - Your organization network may block some connections. Try another wifi / network
 
 
