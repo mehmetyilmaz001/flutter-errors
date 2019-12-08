@@ -5,5 +5,8 @@
   
 - Got TLS error trying to find package on Windows
   - Your organization network may block some connections. Try another wifi / network
+  
+- Duplicate GlobalKeys detected in widget tree.
+  - It likes a hot reload bug. Just restart debugging 
 
 
