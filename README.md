@@ -1,5 +1,16 @@
 # flutter-errors
 
+- “setState() or markNeedsBuild() called during build. This Overlay widget cannot be marked as needing to build because the framework is      already in the process of building widgets…“
+  - You ensure that buid is completed. 
+     You can use (in initState());
+      - WidgetsBinding.instance.addPostFrameCallback((_){
+          showDialog(
+            context: context, 
+            ...
+          );
+        });
+       - Future.microtask(() => print("microtask"))
+  
 - An InputDecorator, which is typically created by a TextField, cannot have an unbounded width
   - Solution: Put TextFormField into a Expanded or Contaniner (width with)
   
