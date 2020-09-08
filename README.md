@@ -32,4 +32,8 @@
           checkReleaseBuilds false
       }
     }
+    
+  - This app is not authorized to use Firebase Authentication.Please verify that the correct package name and SHA-1 are configured in the Firebase Console
+Ask Question
+    - If you are using emulator you have to add test parameters in your firebase auth provider
 
